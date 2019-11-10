@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+#wrapper {
+	min-height: 100%;
+	min-width: 1800px;
+	position: relative;
+	background-color: #F4F4F4;
+}
+header { 
+	height: 87px;
+	width: 100%;
+	background-color: #F4F4F4;
+	font: 14px Helvetica, sans-serif;
+	position: relative;
+}
+#logo_header {
+	width: 156px;
+	height: 59px;
+	position: absolute;
+	top: 13px;
+	left: 220px;
+}
+#question {
+	width: 153px;
+	height: 27px;
+	position: absolute;
+	top: 27px;
+	right: 220px;
+}
+#quest_img {
+	width: 27px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+}
+#qtext {
+	cursor: pointer;
+	margin-top: 5px;
+	width: 121px;
+	color: #555555;
+	float: left;
+}
+#menu {
+	height: 60px;
+	width: 100%;
+	background-color: #333333;
+	font: bold 16px Helvetica, sans-serif;
+	color: #F4F4F4;
+}
+#menu>ul {
+	margin-left: 200px;
+}
+#menu>ul>li {
+	list-style-type: none;
+	line-height: 60px;
+	padding: 0 20px;
+	float: left;
+}
+#menu>ul>li:hover {
+	background-color: #308ED4;
+	cursor: pointer;
+}
+#carusel {
+	width: 1400px;
+	height: 400px;
+	margin: 20px auto;
+	background-image: url('images/boilers.jpg');
+}
+#pluses {
+	width: 960px;
+	height: 160px;
+	background-color: white;
+	margin: -100px auto 40px;
+	border-bottom: solid 5px #E8E8E8;
+}
+#watch01, #watch02, #watch03, #watch04 {
+	font: bold 14px Corbel, sans-serif;
+	position: relative;
+	text-align: center;
+	width: 219px;
+	height: 160px;
+}
+#watch01 {
+	background-image: url('images/watch01.jpg');
+	float: left;
+}
+#watch02 {
+	background-image: url('images/watch02.jpg');
+	margin-left: 27px;
+	float: left;
+}
+#watch03 {
+	background-image: url('images/watch03.jpg');
+	margin-left: 27px;
+	float: left;
+}
+#watch04 {
+	background-image: url('images/watch04.jpg');
+	float: right;
+}
+.up {
+	margin-top: 105px;
+	color: #555555;
+}
+#examples {
+	height: 355px;
+	width: 960px;
+	margin: 40px auto;
+}
+#boil01, #boil02, #boil03, #boil04 {
+	font: 18px Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 15px;
+	width: 219px;
+	height: 355px;
+}
+#boil01 {
+	background-image: url('images/boil01.jpg');
+	float: left;
+}
+#boil02 {
+	background-image: url('images/boil02.jpg');
+	margin-left: 27px;
+	float: left;
+}
+#boil03 {
+	background-image: url('images/boil03.jpg');
+	margin-left: 27px;
+	float: left;
+}
+#boil04 {
+	background-image: url('images/boil04.jpg');
+	float: right;
+}
+a {
+	color: #555555;
+	text-decoration: underline;
+}
+
+#foryou, #comfort {
+	font: 16px Helvetica, sans-serif;
+	text-align: justify;
+	margin: 40px auto;
+	color: #555555;
+	width: 960px;
+}
+#comfort {
+	padding-top: 20px;
+}
+.appendix {
+	height: 200px;
+}
+footer {
+	height: 200px;
+	margin-top: -200px;
+	min-width: 1800px;
+}
+#foottop {
+	height: 140px;
+	position: relative;
+	background-color: #E5E5E5;
+}
+#logobot {
+	position: absolute;
+	top: 41px;
+	left: 220px;
+}
+#new_list {
+	position: absolute;
+	top: 52px;
+	left: 522px;
+}
+#new_list li {
+	font: bold 16px Helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center;
+	margin-right: 65px;
+	color: #555555;
+	float: left;
+}
+#footbot {
+	height: 60px;
+	position: relative;
+	background-color: #333333;
+	font: 16px Helvetica, sans-serif;
+	color: #898989;
+}
+#search {
+	width: 180px;
+	height: 60px;
+	margin-left: 220px;
+	background-color: #282828;
+}
+#lupa {
+	width: 22px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 16px;
+}
+#stext	{
+	width: 80px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 21px;
+}
+#searchtop {
+	width: 180px;
+	height: 60px;
+	float: right;
+	margin-right: 220px;
+	background-color: #282828;
+	font: 16px Helvetica, sans-serif;
+	color: #898989;
+}
+#lupatop {
+	width: 22px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 16px;
+}
+#stexttop	{
+	width: 80px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 21px;
+}
+#copyright {
+	width: 600px;
+	position: absolute;
+	top: 21px;
+	left: 560px;
+}
+#develop {
+	width: 360px;
+	position: absolute;
+	top: 16px;
+	right: 220px;
+}
+#bulb {
+	width: 22px;
+	float: left;
+	margin-right: 7px;
+}
+#dtext {
+	width: 330px;
+	float: left;
+	color: #898989;
+	margin-top: 5px;
+}
+.capitalize {
+	text-transform: uppercase;
+}
